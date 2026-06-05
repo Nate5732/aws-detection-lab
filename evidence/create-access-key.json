@@ -1,0 +1,84 @@
+﻿{
+    "Events": [
+        {
+            "EventId": "0f65386d-cd1e-4252-8805-19454563773b",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "ASIAUE6QSVL524UIM6NC",
+            "EventTime": "2026-06-03T01:39:59-04:00",
+            "EventSource": "iam.amazonaws.com",
+            "Username": "root",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIAUE6QSVL5UKS3RPNE"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "vulnerable-user"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL524UIM6NC\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:39:59Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\",\"requestParameters\":{\"userName\":\"vulnerable-user\"},\"responseElements\":{\"accessKey\":{\"userName\":\"vulnerable-user\",\"accessKeyId\":\"AKIAUE6QSVL5UKS3RPNE\",\"status\":\"Active\",\"createDate\":\"Jun 3, 2026, 5:39:59 AM\"}},\"requestID\":\"d1117b85-3ffc-4f26-8baa-e2f1f2d5f516\",\"eventID\":\"0f65386d-cd1e-4252-8805-19454563773b\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+        },
+        {
+            "EventId": "8b2374a6-7f8a-426c-bdb5-1659b66ae16f",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "ASIAUE6QSVL5ZPW7WDUH",
+            "EventTime": "2026-06-03T01:33:23-04:00",
+            "EventSource": "iam.amazonaws.com",
+            "Username": "root",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIAUE6QSVL5RIOAV6OA"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "lab-admin"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL5ZPW7WDUH\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:33:23Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\",\"requestParameters\":{\"userName\":\"lab-admin\"},\"responseElements\":{\"accessKey\":{\"userName\":\"lab-admin\",\"accessKeyId\":\"AKIAUE6QSVL5RIOAV6OA\",\"status\":\"Active\",\"createDate\":\"Jun 3, 2026, 5:33:23 AM\"}},\"requestID\":\"cbf2d838-e60b-4559-9b8b-6be22f5778f1\",\"eventID\":\"8b2374a6-7f8a-426c-bdb5-1659b66ae16f\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+        },
+        {
+            "EventId": "c73a79a9-154c-405a-a8ea-f01c520cc238",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "ASIAUE6QSVL53TIYHRY5",
+            "EventTime": "2026-06-03T01:22:18-04:00",
+            "EventSource": "iam.amazonaws.com",
+            "Username": "root",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIAUE6QSVL5QUTEBIN5"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "analyst-user"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL53TIYHRY5\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:22:18Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\",\"requestParameters\":{\"userName\":\"analyst-user\"},\"responseElements\":{\"accessKey\":{\"userName\":\"analyst-user\",\"accessKeyId\":\"AKIAUE6QSVL5QUTEBIN5\",\"status\":\"Active\",\"createDate\":\"Jun 3, 2026, 5:22:18 AM\"}},\"requestID\":\"e3f19ba5-d10f-4e89-974b-dadbbf4c55d0\",\"eventID\":\"c73a79a9-154c-405a-a8ea-f01c520cc238\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+        },
+        {
+            "EventId": "9b69cf09-33d3-4b46-8d1c-9c8454927f38",
+            "EventName": "CreateAccessKey",
+            "ReadOnly": "false",
+            "AccessKeyId": "ASIAUE6QSVL53TIYHRY5",
+            "EventTime": "2026-06-03T01:20:56-04:00",
+            "EventSource": "iam.amazonaws.com",
+            "Username": "root",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::AccessKey",
+                    "ResourceName": "AKIAUE6QSVL55G4JGSIP"
+                },
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "analyst-user"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL53TIYHRY5\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:20:56Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"CreateAccessKey\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\",\"requestParameters\":{\"userName\":\"analyst-user\"},\"responseElements\":{\"accessKey\":{\"userName\":\"analyst-user\",\"accessKeyId\":\"AKIAUE6QSVL55G4JGSIP\",\"status\":\"Active\",\"createDate\":\"Jun 3, 2026, 5:20:56 AM\"}},\"requestID\":\"77b7156f-489d-4516-aaf3-0dbe36abb9ec\",\"eventID\":\"9b69cf09-33d3-4b46-8d1c-9c8454927f38\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"},\"sessionCredentialFromConsole\":\"true\"}"
+        }
+    ]
+}
