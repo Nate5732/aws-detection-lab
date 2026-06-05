@@ -1,0 +1,20 @@
+﻿{
+    "Events": [
+        {
+            "EventId": "88a109ea-afc7-4aa2-97a7-8e4ccca49e5d",
+            "EventName": "StopLogging",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIAUE6QSVL5RIOAV6OA",
+            "EventTime": "2026-06-04T21:38:18-04:00",
+            "EventSource": "cloudtrail.amazonaws.com",
+            "Username": "lab-admin",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::CloudTrail::Trail",
+                    "ResourceName": "DetectionEngineeringLab"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDAUE6QSVL5XPW2HH36F\",\"arn\":\"arn:aws:iam::285515885307:user/lab-admin\",\"accountId\":\"285515885307\",\"accessKeyId\":\"AKIAUE6QSVL5RIOAV6OA\",\"userName\":\"lab-admin\"},\"eventTime\":\"2026-06-05T01:38:18Z\",\"eventSource\":\"cloudtrail.amazonaws.com\",\"eventName\":\"StopLogging\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"aws-cli/2.34.59 md/awscrt#0.32.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.5 md/pyimpl#CPython m/Z,E,n,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#cloudtrail.stop-logging\",\"requestParameters\":{\"name\":\"DetectionEngineeringLab\"},\"responseElements\":null,\"requestID\":\"0c337bdb-78c6-47e7-9424-449413987bbd\",\"eventID\":\"88a109ea-afc7-4aa2-97a7-8e4ccca49e5d\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"cloudtrail.us-east-1.amazonaws.com\"}}"
+        }
+    ]
+}

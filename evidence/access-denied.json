@@ -1,0 +1,92 @@
+﻿{
+    "Events": [
+        {
+            "EventId": "d745af49-f3e8-4ff0-99a6-116fd983830f",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "ASIAUE6QSVL5XENQQR3J",
+            "EventTime": "2026-06-04T21:29:42-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "resource-explorer-2",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROAUE6QSVL5YHNRVNOUM:resource-explorer-2\",\"arn\":\"arn:aws:sts::285515885307:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL5XENQQR3J\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROAUE6QSVL5YHNRVNOUM\",\"arn\":\"arn:aws:iam::285515885307:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"accountId\":\"285515885307\",\"userName\":\"AWSServiceRoleForResourceExplorer\"},\"attributes\":{\"creationDate\":\"2026-06-05T01:29:42Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-06-05T01:29:42Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"bucket-region\":\"us-east-1\",\"Host\":\"s3.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"jrxJ5SxbQQzV3jt2jAWd68T1iBlQ2dSRG7VVZz8VvyXUkCPvdjESV9qQcXPLYg92pCoWJOUlytCODus5OhYPgN6jQOzU9mQl\",\"bytesTransferredOut\":876},\"requestID\":\"40KBZ6X8FBM0HRFH\",\"eventID\":\"d745af49-f3e8-4ff0-99a6-116fd983830f\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\"}"
+        },
+        {
+            "EventId": "b267c394-9889-4c5c-b04d-753465a5e494",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "ASIAUE6QSVL53246HM2P",
+            "EventTime": "2026-06-03T01:42:00-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "root",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL53246HM2P\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:42:00Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36]\",\"requestParameters\":{\"Host\":\"s3.us-east-1.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"J5DaTNNP/CJbfBsl+EQEhSx3V1fK3VvygL683IX+CXpitsd4ZN+dW4qWtSIft+3ovC+V7M+RH+0=\",\"bytesTransferredOut\":762},\"requestID\":\"XJFSM2XX17G16329\",\"eventID\":\"b267c394-9889-4c5c-b04d-753465a5e494\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"s3.us-east-1.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "e7079c94-aa95-44ab-a7fc-ef0c2159abbe",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "ASIAUE6QSVL53246HM2P",
+            "EventTime": "2026-06-03T01:41:44-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "root",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL53246HM2P\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:41:44Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36]\",\"requestParameters\":{\"Host\":\"s3.us-east-1.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"aaqtt26aKz9jvMa50GGFt1ZxLQAQa/RqUSPWxEkmnFnZVLiqMZpcU8Nl09NPJlw/hsi5lQD3hY8=\",\"bytesTransferredOut\":762},\"requestID\":\"AC21TM1J2J8K9JR3\",\"eventID\":\"e7079c94-aa95-44ab-a7fc-ef0c2159abbe\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"s3.us-east-1.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "4055bd1a-d754-4c63-97ff-aad159e84c6b",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIAUE6QSVL5RIOAV6OA",
+            "EventTime": "2026-06-03T01:36:04-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "lab-admin",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDAUE6QSVL5XPW2HH36F\",\"arn\":\"arn:aws:iam::285515885307:user/lab-admin\",\"accountId\":\"285515885307\",\"accessKeyId\":\"AKIAUE6QSVL5RIOAV6OA\",\"userName\":\"lab-admin\"},\"eventTime\":\"2026-06-03T05:36:04Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"[aws-cli/2.34.59 md/awscrt#0.32.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.5 md/pyimpl#CPython m/n,Z,E,C,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#s3.ls]\",\"requestParameters\":{\"Host\":\"s3.us-east-1.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"om1EVGi7X+xyimRehX3ubRAeTlTPvS/Ous/L1LRT7SvU80RllvITvE18pDhUD5UA5oUgMUJiQMHhbPfetp2ABZcjxPCmOugO\",\"bytesTransferredOut\":762},\"requestID\":\"5T7HW2TJDD1RSTEA\",\"eventID\":\"4055bd1a-d754-4c63-97ff-aad159e84c6b\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"s3.us-east-1.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "adb0deb5-9732-4a3e-914e-aa3911172faa",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIAUE6QSVL5RIOAV6OA",
+            "EventTime": "2026-06-03T01:35:12-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "lab-admin",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDAUE6QSVL5XPW2HH36F\",\"arn\":\"arn:aws:iam::285515885307:user/lab-admin\",\"accountId\":\"285515885307\",\"accessKeyId\":\"AKIAUE6QSVL5RIOAV6OA\",\"userName\":\"lab-admin\"},\"eventTime\":\"2026-06-03T05:35:12Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"[aws-cli/2.34.59 md/awscrt#0.32.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.5 md/pyimpl#CPython m/n,Z,E,C,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#s3.ls]\",\"requestParameters\":{\"Host\":\"s3.us-east-1.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"IFXSHUhAum7Vk2YNVVK7ecx0hC/gVL0JJngnsqW7FbFrbGUcCC4v3XEWr6mm0Uo4m+NiJZZeOc5icdGegUm+g2wYVPfn2eYU\",\"bytesTransferredOut\":762},\"requestID\":\"2J0QNJSTR5TGV6JJ\",\"eventID\":\"adb0deb5-9732-4a3e-914e-aa3911172faa\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"s3.us-east-1.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "dc078892-a1e3-4ed2-858e-03b7018dc155",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "AKIAUE6QSVL55G4JGSIP",
+            "EventTime": "2026-06-03T01:30:09-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "analyst-user",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDAUE6QSVL55D422OHRB\",\"arn\":\"arn:aws:iam::285515885307:user/analyst-user\",\"accountId\":\"285515885307\",\"accessKeyId\":\"AKIAUE6QSVL55G4JGSIP\",\"userName\":\"analyst-user\"},\"eventTime\":\"2026-06-03T05:30:09Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"[aws-cli/2.34.59 md/awscrt#0.32.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.5 md/pyimpl#CPython m/n,Z,E,C,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#s3.ls]\",\"errorCode\":\"AccessDenied\",\"errorMessage\":\"User: arn:aws:iam::285515885307:user/analyst-user is not authorized to perform: s3:ListAllMyBuckets because no identity-based policy allows the s3:ListAllMyBuckets action\",\"requestParameters\":{\"Host\":\"s3.us-east-1.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"Ajotgy0SucP2QxKDKSHd7fAd49wy7/ugBlgJ+7OD2x9U++pPP4PSInxrDfxLrjmIkvIvbx9XLD4=\",\"bytesTransferredOut\":400},\"requestID\":\"KBRCGQMYFVA9V6WT\",\"eventID\":\"dc078892-a1e3-4ed2-858e-03b7018dc155\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"s3.us-east-1.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "986ffcae-ee6e-4eed-a034-8a67ba3094e7",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "ASIAUE6QSVL5QUJDHVHH",
+            "EventTime": "2026-06-03T01:28:43-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "root",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"Root\",\"principalId\":\"285515885307\",\"arn\":\"arn:aws:iam::285515885307:root\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL5QUJDHVHH\",\"sessionContext\":{\"attributes\":{\"creationDate\":\"2026-06-03T05:07:58Z\",\"mfaAuthenticated\":\"false\"}}},\"eventTime\":\"2026-06-03T05:28:43Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36]\",\"requestParameters\":{\"Host\":\"s3.us-east-1.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"BHuiSXp4miFiCRIautVcZvqEy6tyk5p9gdVDQDpjKZ25da833VusaePlDE9liTTH1Hlbhmq0jEs=\",\"bytesTransferredOut\":603},\"requestID\":\"4NPE44QS13TNTGMT\",\"eventID\":\"986ffcae-ee6e-4eed-a034-8a67ba3094e7\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"s3.us-east-1.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "f597d57c-a065-4767-bb35-cc87293b27f1",
+            "EventName": "ListBuckets",
+            "ReadOnly": "true",
+            "AccessKeyId": "ASIAUE6QSVL5ZT6OIDI4",
+            "EventTime": "2026-06-03T01:13:24-04:00",
+            "EventSource": "s3.amazonaws.com",
+            "Username": "resource-explorer-2",
+            "Resources": [],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"AssumedRole\",\"principalId\":\"AROAUE6QSVL5YHNRVNOUM:resource-explorer-2\",\"arn\":\"arn:aws:sts::285515885307:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2\",\"accountId\":\"285515885307\",\"accessKeyId\":\"ASIAUE6QSVL5ZT6OIDI4\",\"sessionContext\":{\"sessionIssuer\":{\"type\":\"Role\",\"principalId\":\"AROAUE6QSVL5YHNRVNOUM\",\"arn\":\"arn:aws:iam::285515885307:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer\",\"accountId\":\"285515885307\",\"userName\":\"AWSServiceRoleForResourceExplorer\"},\"attributes\":{\"creationDate\":\"2026-06-03T05:13:24Z\",\"mfaAuthenticated\":\"false\"}},\"invokedBy\":\"resource-explorer-2.amazonaws.com\"},\"eventTime\":\"2026-06-03T05:13:24Z\",\"eventSource\":\"s3.amazonaws.com\",\"eventName\":\"ListBuckets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"resource-explorer-2.amazonaws.com\",\"userAgent\":\"resource-explorer-2.amazonaws.com\",\"requestParameters\":{\"bucket-region\":\"us-east-1\",\"Host\":\"s3.amazonaws.com\"},\"responseElements\":null,\"additionalEventData\":{\"SignatureVersion\":\"SigV4\",\"CipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"bytesTransferredIn\":0,\"AuthenticationMethod\":\"AuthHeader\",\"x-amz-id-2\":\"6IlIJ6UFHrJ+PM5L62ZgcR9F7z1//d1iKl27M06BIDGGD7+YGuKVarf4roTUIdCIvcOhb1pSPO4=\",\"bytesTransferredOut\":482},\"requestID\":\"K9T3XAHXQYWD2ZBT\",\"eventID\":\"f597d57c-a065-4767-bb35-cc87293b27f1\",\"readOnly\":true,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\"}"
+        }
+    ]
+}

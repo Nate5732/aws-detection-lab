@@ -1,0 +1,44 @@
+﻿{
+    "Events": [
+        {
+            "EventId": "59872e2d-0959-4447-ad4a-76f141a71499",
+            "EventName": "PutUserPolicy",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIAUE6QSVL5RIOAV6OA",
+            "EventTime": "2026-06-04T21:40:01-04:00",
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lab-admin",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "vulnerable-user"
+                },
+                {
+                    "ResourceType": "AWS::IAM::Policy",
+                    "ResourceName": "InlineAdminPolicy"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDAUE6QSVL5XPW2HH36F\",\"arn\":\"arn:aws:iam::285515885307:user/lab-admin\",\"accountId\":\"285515885307\",\"accessKeyId\":\"AKIAUE6QSVL5RIOAV6OA\",\"userName\":\"lab-admin\"},\"eventTime\":\"2026-06-05T01:40:01Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"PutUserPolicy\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"aws-cli/2.34.59 md/awscrt#0.32.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.5 md/pyimpl#CPython m/Z,E,n,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#iam.put-user-policy\",\"requestParameters\":{\"userName\":\"vulnerable-user\",\"policyName\":\"InlineAdminPolicy\",\"policyDocument\":\"{\\\"Version\\\":\\\"2012-10-17\\\",\\\"Statement\\\":[{\\\"Effect\\\":\\\"Allow\\\",\\\"Action\\\":\\\"*\\\",\\\"Resource\\\":\\\"*\\\"}]}\\n\"},\"responseElements\":null,\"requestID\":\"a77ba318-4b25-4847-8290-6b0c15c43422\",\"eventID\":\"59872e2d-0959-4447-ad4a-76f141a71499\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        },
+        {
+            "EventId": "e99a553c-e8e8-45ba-b014-d2e9b43359bd",
+            "EventName": "PutUserPolicy",
+            "ReadOnly": "false",
+            "AccessKeyId": "AKIAUE6QSVL5RIOAV6OA",
+            "EventTime": "2026-06-04T21:39:12-04:00",
+            "EventSource": "iam.amazonaws.com",
+            "Username": "lab-admin",
+            "Resources": [
+                {
+                    "ResourceType": "AWS::IAM::User",
+                    "ResourceName": "vulnerable-user"
+                },
+                {
+                    "ResourceType": "AWS::IAM::Policy",
+                    "ResourceName": "InlineAdminPolicy"
+                }
+            ],
+            "CloudTrailEvent": "{\"eventVersion\":\"1.11\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDAUE6QSVL5XPW2HH36F\",\"arn\":\"arn:aws:iam::285515885307:user/lab-admin\",\"accountId\":\"285515885307\",\"accessKeyId\":\"AKIAUE6QSVL5RIOAV6OA\",\"userName\":\"lab-admin\"},\"eventTime\":\"2026-06-05T01:39:12Z\",\"eventSource\":\"iam.amazonaws.com\",\"eventName\":\"PutUserPolicy\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"74.130.213.209\",\"userAgent\":\"aws-cli/2.34.59 md/awscrt#0.32.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.5 md/pyimpl#CPython m/Z,E,n,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#iam.put-user-policy\",\"errorCode\":\"MalformedPolicyDocumentException\",\"errorMessage\":\"Syntax errors in policy.\",\"requestParameters\":{\"userName\":\"vulnerable-user\",\"policyName\":\"InlineAdminPolicy\",\"policyDocument\":\"ï»¿{\\\"Version\\\":\\\"2012-10-17\\\",\\\"Statement\\\":[{\\\"Effect\\\":\\\"Allow\\\",\\\"Action\\\":\\\"*\\\",\\\"Resource\\\":\\\"*\\\"}]}\\n\"},\"responseElements\":null,\"requestID\":\"35f1b201-0902-4fd3-b2e2-527a3ec60e15\",\"eventID\":\"e99a553c-e8e8-45ba-b014-d2e9b43359bd\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"managementEvent\":true,\"recipientAccountId\":\"285515885307\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"iam.amazonaws.com\"}}"
+        }
+    ]
+}
